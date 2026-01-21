@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/</loc>
+    <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-01-23</lastmod>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/expressions-and-constants/bitwise-operations</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/expressions-and-constants/technical-specification-1</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/expressions-and-constants/some-operators</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/expressions-and-constants/fmt-package</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/expressions-and-constants/arithmetic-operations-and-type-conversion</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/expressions-and-constants/advanced-number-formatting</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/expressions-and-constants/constants</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/strings/internal-structure-of-strings</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/strings/advanced-string-operations</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/strings/access-to-string-elements-and-runes</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/strings/string-length</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/strings/escape-sequences-in-strings</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/strings/comparison-of-symbols</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/strings/iteration-over-a-string</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/strings/string-concatenation</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/strings/string-conversion</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/strings/changing-lines-and-final-concepts</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/strings/efficient-string-manipulation</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/strings/string-intro</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/slices/practical-tasks-with-cross-sections</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/slices/internal-structure-of-the-cut</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/slices/creating-slices-via-make</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/slices/slices-intro</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/slices/lines-and-cuts-in-practice</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/slices/multidimensional-cross-sections</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/slices/nil-slice-vs-empty-slice</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/slices/slices</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/slices/the-referential-nature-of-slices-and-copying</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/pointers-and-advanced-data-entry/reading-lines-with-spaces-via-bufio</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/pointers-and-advanced-data-entry/conclusion-Data-Input-Methods-in-go</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/pointers-and-advanced-data-entry/reading-lines-using-Scanner</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/pointers-and-advanced-data-entry/memory-in-go-stack-and-heap</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/pointers-and-advanced-data-entry/pointers</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/pointers-and-advanced-data-entry/when-to-use-which-input-method</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/pointers-and-advanced-data-entry/scope-of-variables</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/types-and-user-input/type-conversion</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/types-and-user-input/user-input</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/types-and-user-input/math-package</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/types-and-user-input/advanced-data-entry</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/types-and-user-input/technical-specification-2</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/types-and-user-input/type-aliases</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/arrays/random-numbers-and-maximum-search</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/arrays/multiplication-table</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/arrays/array-boundaries-and-iteration</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/arrays/the-basis-of-arrays</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/arrays/filtering-array-elements</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/arrays/reverse-array</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/arrays/size-as-part-of-type</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/arrays/copying-arrays-and-multidimensional-arrays</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/arrays/accessing-array-elements</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/arrays/declaring-and-initialising-arrays</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/arrays/practice-with-two-dimensional-arrays</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/arrays/arrays-for-storing-coordinates</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/arrays/working-with-multiple-arrays-and-totals</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/terms-and-logic/conditional-construction-if</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/terms-and-logic/initialising-variables-in-an-if-condition</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/terms-and-logic/logical-operators</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/terms-and-logic/operator-switch</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/terms-and-logic/nested-conditions</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/terms-and-logic/conditional-construction-if-else</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/terms-and-logic/conditional-cascades-and-features-of-if-syntax</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/terms-and-logic/short-circuit-evaluation-and-combining-logical-operations</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/terms-and-logic/technical-specification-3</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/terms-and-logic/comparison-operations</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/loops/loop</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/loops/generation-of-pseudo-random-numbers</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/loops/for loop</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/loops/the-for-loop-like-the-while-loop</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/loops/detailed-mechanics-of-the-for-loop</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/loops/cryptographically-robust-random-number-generation</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/final/technical-specification-4</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/final/technical-specification-5</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/final/technical-specification-6</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/basic-types-and-variables/anatomy-of-a-variable-memory-addresses-and-sizes-in-go</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/basic-types-and-variables/a-complete-overview-of-data-types-from-int-to-rune</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/basic-types-and-variables/basics-of-fundamental-data-types-in-go-bool-string-float</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/basic-types-and-variables/system-of-numeric-types</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/basic-types-and-variables/export-of-identifiers-and-agreement-on-abbreviations</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/basic-types-and-variables/data types and variables</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/basic-types-and-variables/go-project-structure</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/basic-types-and-variables/rules-for-naming-identifiers</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/basic-types-and-variables/comments-in-go-single-line-multi-line-and-documentation</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/basic-types-and-variables/static-typing-and-brief-variable-declaration</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/basic-types-and-variables/variability-of-variables-and-characteristics-of-strings-in-memory</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/basic-types-and-variables/zero-values</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://iksergey.github.io/go-fundamentals-book/basic-types-and-variables/all-data-types-in-one-example</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+</urlset>

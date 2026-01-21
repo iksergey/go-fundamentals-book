@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Скрыть служебные страницы
+Disallow: /_includes/
+Disallow: /_layouts/
+Disallow: /assets/
+
+Sitemap: https://iksergey.github.io/go-fundamentals-book/sitemap.xml

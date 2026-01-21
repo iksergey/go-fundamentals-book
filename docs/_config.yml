@@ -1,0 +1,66 @@
+title: Go Fundamentals
+description: Практическое руководство по основам программирования на Go
+tagline: От базовых концепций до продвинутых техник backend-разработки
+
+url: "https://iksergey.github.io"
+baseurl: "/go-fundamentals-book"
+
+remote_theme: just-the-docs/just-the-docs
+color_scheme: dark
+enable_dark_mode: true
+search_enabled: true
+
+breadcrumb_separator: "/"
+
+lang: ru
+locale: ru_RU
+
+author:
+  name: "Сергей Камянецкий"
+  url: "https://github.com/iksergey"
+
+logo: "/assets/images/logo.png"
+social:
+  name: Go Fundamentals book
+  links:
+    - https://github.com/iksergey/go-fundamentals-book
+
+keywords: >-
+  golang, go, программирование, курс, обучение, backend, 
+  разработка, туториал, руководство, книга, практика,
+  go для начинающих, изучение go, backend разработка,
+  язык программирования go, golang tutorial, go course
+
+markdown: kramdown
+highlighter: rouge
+
+enable_copy_code_button: true
+
+aux_links:
+  "GitHub": "https://github.com/iksergey/go-fundamentals-book"
+
+head_scripts:
+  - "/assets/css/custom.css"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - LICENSE.md
+  - "*.gem"
+  - "*.gemspec"
+  - package.json
+  - package-lock.json
+  - script/
+  - LICENSE.txt
+  - lib/
+  - bin/
+  - Rakefile
+  - docs/tests/

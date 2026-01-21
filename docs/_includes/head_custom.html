@@ -1,0 +1,122 @@
+<!-- Favicon -->
+<link rel="icon" type="image/x-icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/images/favicon-16x16.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicon-32x32.png' | relative_url }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}">
+
+<!-- MathJax для математических формул -->
+<script>
+    window.MathJax = {
+        tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']],
+            displayMath: [['\\[', '\\]']]
+        }
+    };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+
+<!-- Отслеживание прогресса обучения -->
+<script>
+    function getProgress() {
+        const data = localStorage.getItem('go_book_progress');
+        return data ? JSON.parse(data) : [];
+    }
+
+    function saveProgress(lessonId) {
+        const completed = getProgress();
+        if (!completed.includes(lessonId)) {
+            completed.push(lessonId);
+            localStorage.setItem('go_book_progress', JSON.stringify(completed));
+            return true;
+        }
+        return false;
+    }
+
+    function isCompleted(lessonId) {
+        return getProgress().includes(lessonId);
+    }
+
+    function getProgressPercent() {
+        const total = document.querySelectorAll('.nav-list-link').length;
+        const completed = getProgress().length;
+        return total > 0 ? Math.round((completed / total) * 100) : 0;
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const mainContent = document.querySelector('.main-content');
+        if (!mainContent) return;
+
+        const currentPath = window.location.pathname;
+
+        if (currentPath.endsWith('/') || currentPath.includes('/index')) return;
+
+        // Контейнер БЕЗ фона (прозрачный)
+        const progressContainer = document.createElement('div');
+        progressContainer.style.cssText = 'margin: 20px 0; padding: 15px 0; border-bottom: 1px solid rgba(255,255,255,0.1);';
+
+        const btn = document.createElement('button');
+        const isRead = isCompleted(currentPath);
+        btn.textContent = isRead ? '✓ Прочитано' : 'Отметить как прочитанное';
+
+        // Стиль кнопки для тёмной темы
+        btn.style.cssText = 'padding: 8px 16px; background: ' + (isRead ? '#28a745' : '#7253ed') +
+            '; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 14px; font-weight: 500;';
+
+        btn.onclick = function () {
+            if (saveProgress(currentPath)) {
+                btn.textContent = '✓ Прочитано';
+                btn.style.background = '#28a745';
+                updateProgressDisplay();
+            }
+        };
+
+        const progressDisplay = document.createElement('span');
+        // Светло-серый текст для тёмной темы
+        progressDisplay.style.cssText = 'margin-left: 15px; color: #aaa; font-size: 14px;';
+
+        function updateProgressDisplay() {
+            const percent = getProgressPercent();
+            const completed = getProgress().length;
+            progressDisplay.textContent = `Прогресс: ${completed} уроков (${percent}%)`;
+        }
+
+        updateProgressDisplay();
+
+        progressContainer.appendChild(btn);
+        progressContainer.appendChild(progressDisplay);
+
+        // Вставляем перед первым заголовком
+        const firstHeading = mainContent.querySelector('h1, h2');
+        if (firstHeading) {
+            firstHeading.parentNode.insertBefore(progressContainer, firstHeading.nextSibling);
+        } else {
+            mainContent.insertBefore(progressContainer, mainContent.firstChild);
+        }
+
+        // Подсветка пройденных уроков в навигации
+        document.querySelectorAll('.nav-list-link').forEach(link => {
+            if (isCompleted(link.getAttribute('href'))) {
+                link.style.cssText += 'color: #28a745; font-weight: 500;';
+                link.innerHTML = '✓ ' + link.innerHTML;
+            }
+        });
+    });
+</script>
+
+<!-- Стили для кнопки прогресса -->
+<style>
+    button:hover {
+        opacity: 0.9;
+        transform: translateY(-1px);
+        transition: all 0.2s;
+    }
+
+    button:active {
+        transform: translateY(0);
+    }
+
+    /* Дополнительная адаптация для тёмной темы */
+    .main-content button {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+</style>

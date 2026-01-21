@@ -1,0 +1,26 @@
+/* Стилизация логотипа с текстом */
+.site-title {
+    display: flex !important;
+    align-items: center !important;
+    gap: 12px;
+}
+
+.site-logo {
+    flex-shrink: 0;
+}
+
+/* Добавляем текст после лого через CSS */
+.site-title::after {
+    content: "Go Fundamentals";
+    font-size: 18px;
+    font-weight: 600;
+    color: #7253ed;
+    white-space: nowrap;
+}
+
+/* Для мобильных устройств */
+@media (max-width: 768px) {
+    .site-title::after {
+        font-size: 16px;
+    }
+}
